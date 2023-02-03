@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Head>
           <title>Lista de usuarios</title>
           <meta name="Lista de usuario" content="Lista de usuarios por: Angelo Gaona" />
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/favicon.png" />
       </Head>
       <Layout>
         <Component {...pageProps} />

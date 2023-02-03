@@ -32,9 +32,5 @@ El uso de typescript y sass lo realizo para mayor comodidad y mejorar mi experie
 <p>Libreria de diseño para css que permite mejorar el orden y distribucion de codigo en las hojas de estilo</p>
 Realizado en archivos .scss para deja rla compatibilidad con css en caso de retornar de diseño y version
 
-6. React Hook From
-[React Hook from Documentation](https://react-hook-form.com/)
-<p>Libreria para creacion de formularios (validacion, tipado, entrega de datos, manipulacion de registros entre otros)</p>
-
-7. Material Ui
+6. Material Ui
 Libreria de diseño similiar a boostrap, sin embargo preferi esta libreria debido a la flexibilidad de diseño y la rentabilidad en cuestion al rendimiento de la pagina.

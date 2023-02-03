@@ -87,7 +87,7 @@ const NavBar = () => {
                             </MenuItem>
                             <MenuItem onClick={handleCloseNavMenu}>
                                 <Typography textAlign="center">
-                                    <Link href={'https://github.com/Tensangelo/SearchUser-GItHub'}>
+                                    <Link href={'https://github.com/Tensangelo/SearchUser-GItHub'} target='_blank'>
                                         Github
                                     </Link>
                                 </Typography>
@@ -122,6 +122,7 @@ const NavBar = () => {
                         </Button>
                         <Button
                             href="https://github.com/Tensangelo/SearchUser-GItHub"
+                            target={'_blank'}
                             onClick={handleCloseNavMenu}
                             sx={{ my: 2, color: '#ffffffb3', display: 'block', fontWeight: '600', fontSize: '16px' }}
                         >

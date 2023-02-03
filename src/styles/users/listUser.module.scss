@@ -12,10 +12,28 @@
         width: 100%;
         background-color: transparent;
 
-        .inputToolSearch {
-            background-color: #CFD8DC;
-            padding: 7px 10px;
-            margin-bottom: 0;
+        .toolSearch {
+
+            .inputToolSearch {
+                background-color: #CFD8DC;
+                padding: 7px 10px;
+                margin-bottom: 0;
+
+                @media (max-width: 600px) {
+                    margin-top: 1rem;
+                    width: 100%;
+                }
+            }
+            @media (max-width: 600px) {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+        }
+
+        @media (max-width: 768px) {
+            justify-content: center;
         }
     }
 

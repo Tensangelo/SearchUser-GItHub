@@ -29,5 +29,15 @@
         color: #08fdd8;
         text-align: center;
         font-weight: bold;
+
+        @media (max-width: 1440px) {
+            font-size: 2vw;
+        }
+        @media (max-width:  1024px) {
+            font-size: 3vw;
+        }
+        @media (max-width:  768px) {
+            font-size: 4vw;
+        }
     }
 }

@@ -27,6 +27,12 @@
         p:nth-of-type(1) {
             font-weight: bold;
         }
+
+        @media (max-width: 600px) {
+            margin-top: 1rem;
+            width: 95%;
+            margin-left: 0;
+        }
     }
 
     .BtnTools {
@@ -40,6 +46,10 @@
             background-color: #08fdd8 !important;
             opacity: .9 !important;
         }
+    }
+
+    @media (max-width: 1024px) {
+        flex-wrap: wrap;
     }
 }
 
@@ -61,6 +71,13 @@
         p:nth-of-type(1) {
             font-weight: bold;
             margin-bottom: 10px;
+        }
+
+        @media (max-width: 1024px) {
+            width: 49%;
+        }
+        @media (max-width: 600px) {
+            width: 100%;
         }
     }
 

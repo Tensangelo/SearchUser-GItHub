@@ -26,7 +26,7 @@ const TableUsers = (props: TableUserProps) => {
     const { infoUserRow, ListDataUser, isLoading } = props;
 
     return (
-        <TableContainer sx={{ minHeight: '300px', maxHeight: '750px' }}>
+        <TableContainer sx={{ minHeight: '300px', maxHeight: '720px' }}>
             <Table stickyHeader aria-label='sticky table' sx={{ minHeight: '300px' }}>
                 <TableHead>
                     <TableRow>

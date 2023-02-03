@@ -13,6 +13,19 @@
         width: 60rem;
         text-align: center;
         margin-bottom: 2rem;
+
+        @media (max-width: 1024px) {
+            font-size: 38px;
+            width: 50rem;
+        }
+        @media (max-width: 600px) {
+            font-size: 38px;
+            width: 92%;
+        }
+        @media (max-width: 425px) {
+            font-size: 28px;
+            width: 95%;
+        }
     }
 
     p {
@@ -20,6 +33,14 @@
         width: 60rem;
         color: #CFD8DC;
         text-align: center;
+
+        @media (max-width: 1024px) {
+            font-size: 17px;
+            width: 90%;
+        }
+        @media (max-width: 425px) {
+            font-size: 15px;
+        }
     }
 
     a {
@@ -40,6 +61,11 @@
 
         &:hover {
             background-color: #08fdd8;
+        }
+
+        @media (max-width: 425px) {
+            padding: .40rem 1rem;
+            font-size: 16px;
         }
     }
 }

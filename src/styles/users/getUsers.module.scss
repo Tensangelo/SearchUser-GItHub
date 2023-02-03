@@ -39,12 +39,16 @@
         background-color: #1de9b6 !important;
         color: #000000 !important;
         width: 15rem !important;
-        margin: 15px 0 10px 15px !important;
+        margin: 15px 0 10px 15px;
         font-weight: 600;
 
         &:hover {
             background-color: #08fdd8 !important;
             opacity: .9 !important;
+        }
+
+        @media (max-width: 600px) {
+            margin: 15px 0 10px 0px;
         }
     }
 

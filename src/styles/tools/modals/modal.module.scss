@@ -1,0 +1,46 @@
+.containerModal, .containerModalSmall {
+    background-color: #263238;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 65rem;
+    height: auto;
+    max-height: 50rem;
+    overflow: auto;
+    border-radius: 8px;
+    padding: 1.5rem;
+    -webkit-box-shadow: 6px 6px 5px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 6px 5px -6px rgba(0,0,0,0.75);
+    box-shadow: 6px 6px 5px -6px rgba(0,0,0,0.75);
+    outline: none;
+
+    h2 {
+        text-align: center;
+        color: #1de9b6;
+        font-size: 1.8em;
+    }
+
+    .containerBtn {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        .BtnTools {
+            background-color: #1de9b6 !important;
+            color: #000000 !important;
+            width: 8rem !important;
+            margin: 15px 0 10px 15px !important;
+
+            &:hover {
+                background-color: #08fdd8 !important;
+                opacity: .9 !important;
+            }
+        }
+    }
+}
+
+.containerModalSmall {
+    width: 20rem;
+    max-height: 30rem;
+}

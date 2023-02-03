@@ -1,0 +1,32 @@
+.botonsToolsPagination {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: #263238;
+
+    .BtnPaginations {
+        margin: 1rem;
+        background-color: #1de9b6;
+        color: #000000;
+
+        &:hover {
+            background-color: #08fdd8;
+        }
+    }
+    .Pagintation {
+
+        ul {
+
+            li {
+
+                button, div {
+                    background-color: #cfd8dc;
+
+                    &:hover {
+                        background-color: #08fdd8;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,6 +1,22 @@
-import '@/styles/globals.css'
-import type { AppProps } from 'next/app'
+import '../styles/global.scss'
+import type { AppProps } from 'next/app';
+import Head from "next/head";
+// Components
+import Layout from '@components/Layout'
 
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+function MyApp({ Component, pageProps }: AppProps) {
+  return (
+    <>
+      <Head>
+          <title>Lista de usuarios</title>
+          <meta name="Lista de usuario" content="Lista de usuarios por: Angelo Gaona" />
+          <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </>
+  )
 }
+
+export default MyApp;
